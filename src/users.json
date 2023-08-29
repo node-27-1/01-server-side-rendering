@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "image": "https://randomuser.me/api/portraits/men/89.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mickey Mouse",
+    "image": "https://randomuser.me/api/portraits/men/43.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Usain Bolt",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg"
+  }
+]
