@@ -14,7 +14,15 @@ app.use(helmet({
     crossOriginResourcePolicy: false,
 }));
 app.use(cors());
-app.set('view engine', 'handlebars');   
+app.set('view engine', 'handlebars');  
+app.use(
+    helmet.contentSecurityPolicy({
+      useDefaults: true,
+      directives: {
+        "img-src": ["'self'", "https: data:"]
+      }
+    })
+  ) 
 app.set("views", __dirname+"/views");
 app.engine('handlebars', handlebars.engine({
     layoutsDir: __dirname + '/views/layouts',

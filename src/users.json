@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "John Doe",
-    "image": "https://randomuser.me/api/portraits/men/89.jpg"
+    "image": "https://res.cloudinary.com/ddflkwfsr/image/upload/v1688597039/academlo-tours/john-doe-image.jpg"
   },
   {
     "id": 2,
     "name": "Mickey Mouse",
-    "image": "https://randomuser.me/api/portraits/men/43.jpg"
+    "image": "https://res.cloudinary.com/ddflkwfsr/image/upload/v1688596777/academlo-tours/Catharine%20Wyland-image.jpg"
   },
   {
     "id": 3,
     "name": "Usain Bolt",
-    "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    "image": "https://res.cloudinary.com/ddflkwfsr/image/upload/v1688595341/academlo-tours/Orlando%20Schwender-image.jpg"
   }
 ]

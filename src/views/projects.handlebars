@@ -1,7 +1,9 @@
 <h1>Estos son mis proyectos</h1>
 
 <ul>
-  <li>fjdslka</li>
-  <li>fjdslka</li>
-  <li>fjdslka</li>
+  {{#each projects}}
+    <li>
+      <a href="/projects/{{this.id}}">{{this.name}}</a>
+    </li>
+  {{/each}}
 </ul>
